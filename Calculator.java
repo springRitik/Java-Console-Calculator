@@ -48,19 +48,19 @@ int num2 = scanner.nextInt();
 
         switch (choice) {
             case 1:
-                System.err.println("addition is" +add(num1,num2));
+                System.out.println("addition is" +add(num1,num2));
                 break;
         
                 case 2:
-                System.err.println("substraction is" +substraction(num1,num2));
+                System.out.println("substraction is" +substraction(num1,num2));
                 break;
 
                 case 3:
-                System.err.println("multiplication is" +multiply(num1,num2));
+                System.out.println("multiplication is" +multiply(num1,num2));
                 break;
 
                 case 4:
-                System.err.println("divide is" +divide(num1,num2));
+                System.out.println("divide is" +divide(num1,num2));
                 break;
 
             default:
